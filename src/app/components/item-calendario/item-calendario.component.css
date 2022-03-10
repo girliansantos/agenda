@@ -1,0 +1,8 @@
+.painel{
+    width: 15%;
+    height: 20ch;
+    background-color: aqua;
+    color: black;
+    border: 5ch;
+    border-radius: 10%;
+}

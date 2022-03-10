@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { CalendarioComponent } from './components/calendario/calendario.component';
+import { EventoComponent } from './components/evento/evento.component';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +10,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'agenda';
   data = new Date();
+  calendario = new CalendarioComponent()
+  eventos = EventoComponent
 }

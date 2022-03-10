@@ -13,7 +13,7 @@ export class ListaEventosComponent implements OnInit {
   {id: 4, desc: "evento 4", data:"22/08/2022", prioridade: "Alta"}]
 
   constructor() { }
-
+  
   ngOnInit(): void {
   }
 
