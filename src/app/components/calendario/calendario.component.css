@@ -1,5 +1,6 @@
 .principal{
     padding: 5%;
+    display: grid;
 }
 .item{
     padding: 2%;
